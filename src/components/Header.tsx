@@ -24,7 +24,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-dark/95 backdrop-blur-md">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-md">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -46,7 +46,7 @@ const Header = () => {
                   <NavigationMenuLink asChild>
                     <Link 
                       to="/" 
-                      className="text-dark-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
+                      className="text-dark hover:text-primary transition-colors duration-300 font-medium py-2"
                     >
                       Home
                     </Link>
@@ -54,7 +54,7 @@ const Header = () => {
                 </NavigationMenuItem>
                 
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="text-dark-foreground hover:text-primary bg-transparent">
+                  <NavigationMenuTrigger className="text-dark hover:text-primary bg-transparent">
                     Serviços
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -77,7 +77,7 @@ const Header = () => {
                   <NavigationMenuLink asChild>
                     <Link 
                       to="/blog" 
-                      className="text-dark-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
+                      className="text-dark hover:text-primary transition-colors duration-300 font-medium py-2"
                     >
                       Blog
                     </Link>
@@ -88,7 +88,7 @@ const Header = () => {
                   <NavigationMenuLink asChild>
                     <Link 
                       to="/sobre-nos" 
-                      className="text-dark-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
+                      className="text-dark hover:text-primary transition-colors duration-300 font-medium py-2"
                     >
                       Sobre Nós
                     </Link>
@@ -99,7 +99,7 @@ const Header = () => {
                   <NavigationMenuLink asChild>
                     <Link 
                       to="/contato" 
-                      className="text-dark-foreground hover:text-primary transition-colors duration-300 font-medium py-2"
+                      className="text-dark hover:text-primary transition-colors duration-300 font-medium py-2"
                     >
                       Contato
                     </Link>
@@ -113,7 +113,7 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-dark-foreground hover:text-primary focus:outline-none focus:text-primary"
+              className="text-dark hover:text-primary focus:outline-none focus:text-primary"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isMenuOpen ? (
@@ -128,7 +128,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-dark border-t border-border">
+          <div className="md:hidden bg-white border-t border-border">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <Link
                 to="/"
@@ -140,13 +140,13 @@ const Header = () => {
               
               {/* Mobile Services Submenu */}
               <div className="px-3 py-2">
-                <div className="text-dark-foreground font-medium mb-2">Serviços</div>
+                <div className="text-dark font-medium mb-2">Serviços</div>
                 <div className="ml-4 space-y-1">
                   {services.map((service) => (
                     <Link
                       key={service.label}
                       to={service.href}
-                      className="block px-2 py-1 text-sm text-dark-foreground hover:text-primary transition-colors"
+                      className="block px-2 py-1 text-sm text-dark hover:text-primary transition-colors"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {service.label}
@@ -157,7 +157,7 @@ const Header = () => {
 
               <Link
                 to="/blog"
-                className="block px-3 py-2 text-dark-foreground hover:text-primary font-medium transition-colors"
+                className="block px-3 py-2 text-dark hover:text-primary font-medium transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blog
@@ -165,7 +165,7 @@ const Header = () => {
 
               <Link
                 to="/sobre-nos"
-                className="block px-3 py-2 text-dark-foreground hover:text-primary font-medium transition-colors"
+                className="block px-3 py-2 text-dark hover:text-primary font-medium transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Sobre Nós
@@ -173,7 +173,7 @@ const Header = () => {
 
               <Link
                 to="/contato"
-                className="block px-3 py-2 text-dark-foreground hover:text-primary font-medium transition-colors"
+                className="block px-3 py-2 text-dark hover:text-primary font-medium transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contato
