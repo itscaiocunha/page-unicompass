@@ -31,44 +31,16 @@ const Hero = () => {
               Encontre as melhores oportunidades e soluções confiáveis em RH, BPO e ESG 
               conosco, desenvolvendo suas competências empresariais.
             </p>
-
-            {/* Benefits List */}
-            <div className="space-y-4 mb-8">
-              {[
-                "✓ Encontre mais de 200+ oportunidades de serviços",
-                "✓ Desenvolva novas competências para preparar sua empresa",
-                "✓ Mantenha o progresso de todos os talentos",
-                "✓ Conexão com mais de 90+ empresas"
-              ].map((benefit, index) => (
-                <div key={index} className="flex items-center text-dark-foreground/90">
-                  <span className="text-primary mr-3 text-xl">✓</span>
-                  <span>{benefit.replace('✓ ', '')}</span>
-                </div>
-              ))}
-            </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="default" size="xl" className="bg-primary hover:bg-primary-dark">
                 Sobre Nós
               </Button>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
-                  <div className="w-0 h-0 border-l-[6px] border-l-primary border-y-[4px] border-y-transparent ml-1" />
-                </div>
-                <div>
-                  <p className="text-dark-foreground font-medium">
-                    Encontre as melhores & confiáveis oportunidades de negócios
-                  </p>
-                  <p className="text-dark-foreground/70 text-sm">
-                    conosco e desenvolva suas competências
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
 
           {/* Right Images */}
-          <div className="relative">
+          <div className="relative hidden md:block">
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <div className="w-full h-64 bg-card rounded-xl overflow-hidden">
