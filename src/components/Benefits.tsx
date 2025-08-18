@@ -24,7 +24,7 @@ const Benefits = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in-up">
           <div className="mb-6">
-            <span className="text-primary text-lg font-medium">The Benefits</span>
+            <span className="text-primary text-lg font-medium">Benefícios</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Ampla Exposição para

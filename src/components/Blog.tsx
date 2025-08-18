@@ -32,7 +32,7 @@ const Blog = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in-up">
           <div className="mb-6">
-            <span className="text-primary text-lg font-medium">Our Blog</span>
+            <span className="text-primary text-lg font-medium">Nosso Blog</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Últimas Notícias e Artigos

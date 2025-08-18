@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
           {/* Left Content */}
           <div className="animate-fade-in-up">
             <div className="mb-6">
-              <span className="text-primary text-lg font-medium">Why Choose Us</span>
+              <span className="text-primary text-lg font-medium">Por que nos escolher</span>
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-dark-foreground mb-8 leading-tight">
