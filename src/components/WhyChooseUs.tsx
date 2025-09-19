@@ -5,11 +5,11 @@ const EscolhaNos = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="animate-fade-in-up">
             <div className="mb-6">
-              <span className="text-primary text-lg font-medium">Por que a UNICOMPASS?</span>
+              <span className="text-primary text-lg font-medium">POR QUE A UNICOMPASS?</span>
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-dark-foreground mb-8 leading-tight">
-              Melhores oportunidades para <span className="text-primary">sua Empresa</span>
+              Melhores oportunidades para <span className="text-primary">sua empresa</span>
             </h2>
             
             <p className="text-xl text-dark-foreground/80 mb-12 leading-relaxed">
@@ -24,7 +24,7 @@ const EscolhaNos = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold text-dark-foreground mb-2">
-                    Método 8+3 Exclusivo
+                    Método 8+3 exclusivo
                   </h4>
                   <p className="text-dark-foreground/70 text-sm leading-relaxed">
                     O modelo integra 8 áreas de consultoria com 3 verticais de treinamento, entregando soluções completas para o crescimento e a prevenção de riscos na sua empresa.
@@ -38,7 +38,7 @@ const EscolhaNos = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold text-dark-foreground mb-2">
-                    Consultoria Integrada
+                    Consultoria integrada
                   </h4>
                   <p className="text-dark-foreground/70 text-sm leading-relaxed">
                     Unimos finanças, pessoas, compliance e saúde ocupacional em uma abordagem única, garantindo resultados para o seu negócio.
@@ -61,7 +61,7 @@ const EscolhaNos = () => {
                     <span className="text-3xl font-bold text-dark-foreground">80%</span>
                   </div>
                 </div>
-                <h4 className="text-lg font-semibold text-dark-foreground mb-2">Eficiência Operacional</h4>
+                <h4 className="text-lg font-semibold text-dark-foreground mb-2">Eficiência operacional</h4>
                 <p className="text-dark-foreground/70 text-sm">
                   Margem média em serviços estratégicos, com alta performance nos resultados.
                 </p>
@@ -78,7 +78,7 @@ const EscolhaNos = () => {
                     <span className="text-3xl font-bold text-dark-foreground">92%</span>
                   </div>
                 </div>
-                <h4 className="text-lg font-semibold text-dark-foreground mb-2">Satisfação de Clientes</h4>
+                <h4 className="text-lg font-semibold text-dark-foreground mb-2">Satisfação de clientes</h4>
                 <p className="text-dark-foreground/70 text-sm">
                   Alto índice de fidelização e renovação de contratos graças à entrega de valor.
                 </p>
@@ -89,7 +89,7 @@ const EscolhaNos = () => {
             <div className="mt-12">
               <div className="w-full h-64 bg-card rounded-xl overflow-hidden">
                 <img 
-                  src="public/images/time/foto-escritorio.jpg" 
+                  src="https://unicompass-alpha.vercel.app/images/time/foto-escritorio.jpg" 
                   alt="Escritório da Unicompass" 
                   className="w-full h-full object-cover"
                 />

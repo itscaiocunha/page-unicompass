@@ -9,7 +9,7 @@ const heroContent = {
   subtitle: "Potencialize seu negócio com soluções integradas em Finanças, Compliance, RH e SST, unindo consultoria estratégica e treinamentos para resultados sustentáveis.",
   primaryCta: "Nossos Serviços",
   secondaryCta: "Fale Conosco",
-  backgroundImage: "/images/time/foto-escada-time.JPG",
+  backgroundImage: "https://unicompass-alpha.vercel.app/images/time/foto-escada-time.JPG",
   backgroundImageAlt: "A equipe da nossa empresa posando para uma foto na escadaria do escritório.",
 };
 
