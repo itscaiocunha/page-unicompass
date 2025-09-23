@@ -31,7 +31,7 @@ const Header = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/">
                 <img 
-                    src="images/logo/Logo.png" 
+                    src="/images/logo/Logo.png" 
                     alt="Logo Consultoria Estratégica" 
                     className="h-16 w-auto"
                 />
